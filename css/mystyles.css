@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+} /* asterisk means everything */
+
+html {
+    font-size: 16px;
+    background-color: #999999;
+}
+
+body {
+    font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #222;
+    line-height: 1.8rem;
+}
+
+.page-wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-header {
+    height: 5.625rem; /* 90px */
+    background-color: #666666;
+}
+
+.site-header h1 {
+    line-height: 5.625rem;
+    color: #ff6633;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-align: center;
+    ;
+}
+
+.flex-box {
+    display: table;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.main-content, .main-nav, .right-sidebar {
+    padding: 2rem;
+}
+
+.main-nav {
+    width: 250px;
+    min-width: 170px;
+    background-color: #666666;
+    padding: 15px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.main-nav li {
+    margin: 0;
+    border-bottom: 1px solid #ff6633;
+    width: 100%;
+}
+
+.main-nav a {
+    color: #ff6633;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: #666666;
+}
+
+.main-nav a:hover {
+    background-color: #ff6633;
+    color: #666666;
+}
+
+.main-content {
+    width: 100%;
+    display: table-cell;
+}
+
+.img img {
+    float: left;
+    display: flex;
+    margin-right: 20px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right-sidebar {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+    border: 1px dashed #ff6633;
+    width: 180px;
+    background-color: #666666;
+    color: #ff6633;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    color: #cccccc;
+    font-size: .8rem;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
